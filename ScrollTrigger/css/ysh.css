@@ -1,0 +1,24 @@
+body {
+  height: 300vh;
+  overflow-x: hidden;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  font-weight: bold;
+}
+.b{
+  background: red;
+}
+.c{
+  background: yellow;
+}
