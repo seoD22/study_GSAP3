@@ -1,13 +1,5 @@
 body{margin: 0; font-size: 1.5rem;}
 
-nav{position: sticky; top: 0; transition: all .6s ease-in-out; background-color: burlywood; color: white;}
+.box{width: 100px;height: 100px;background-color: steelblue;}
 
-ul{margin: 0; padding: 40px;display: flex;justify-content: flex-end; list-style: none;}
-
-li{margin-right: 60px;}
-
-.panel{background-color: burlywood; height: 100vh;}
-
-.nav-active{background-color: white; color: black;}
-
-p{padding-top: 50px;margin: 0 auto; min-width: 1200px;}
+.fullscreen{height: 100vh;}
