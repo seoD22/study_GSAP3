@@ -1,13 +1,13 @@
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".square", {
-  // x: 700,
-  duration:3,
+  x: 700,
+  duration:8,
   scrollTrigger: {
     trigger: ".square",
-    start: "top 30%",
-    end: ()=>`+=${document.querySelector(".square").offsetHeight}`,
+    start: "top 60%",
+    end: "top 40%",
+    toggleActions: "restart pause resume complete",
     markers: true,
-    toggleClass: "red",
   },
 });
