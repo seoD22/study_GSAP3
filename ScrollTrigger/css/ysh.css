@@ -7,5 +7,6 @@ body{margin: 0;}
 
 .div2{background: salmon;}
 
-.square{width: 150px;height: 150px;background-color: skyblue;}
-.square2{margin-top: 300px; width: 150px;height: 150px;background-color: blue;}
+.square{width: 150px;height: 20vh;background-color: skyblue;}
+
+.red{background-color: red;}
