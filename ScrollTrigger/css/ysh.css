@@ -1,5 +1,8 @@
-body{margin: 0; font-size: 1.5rem;}
+body{margin: 0 auto; overflow-x: hidden; background-color: burlywood;}
 
-.box{width: 100px;height: 100px;background-color: steelblue;}
+.container{width: 100vw; margin: 0 auto;}
 
-.fullscreen{height: 100vh;}
+.panel{height: 100vh; background-color: burlywood;}
+
+.pics{display: flex; flex-direction: row;}
+.pics img{width: 100%;}
